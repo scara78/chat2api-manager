@@ -1,0 +1,16 @@
+log_level: debug
+log_path: logs
+log_file: ""
+bind: 0.0.0.0
+port: 3040
+auth:
+    access_tokens:
+        - sk-f6c4ca742d72aabdedd9e183c35da28df1b1c4fa48765bb8
+    access_token_prefix: []
+proxy: ""
+chatgpt_base_url: https://chatgpt.com
+account_rotation_enabled: false
+account_rotation_window_minutes: 60
+account_rotation_max_uses: 5
+account_bad_threshold: 3
+chatgpts: []
